@@ -12,6 +12,7 @@
 		CD27AE1D2043F72D00BABAEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD27AE1C2043F72D00BABAEB /* Assets.xcassets */; };
 		CD27AE202043F72D00BABAEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD27AE1E2043F72D00BABAEB /* LaunchScreen.storyboard */; };
 		CD27AE3F20440E5400BABAEB /* aassasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD27AE3E20440E5400BABAEB /* aassasa.swift */; };
+		CD27AE4220440F2B00BABAEB /* sjassaj.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD27AE4120440F2B00BABAEB /* sjassaj.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CD27AE1F2043F72D00BABAEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD27AE212043F72D00BABAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD27AE3E20440E5400BABAEB /* aassasa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aassasa.swift; sourceTree = "<group>"; };
+		CD27AE4120440F2B00BABAEB /* sjassaj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sjassaj.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		CD27AE142043F72D00BABAEB /* DouYuZhiBo */ = {
 			isa = PBXGroup;
 			children = (
+				CD27AE4020440EFE00BABAEB /* 侧双 */,
 				CD27AE3720440CC000BABAEB /* Classes */,
 				CD27AE152043F72D00BABAEB /* AppDelegate.swift */,
 				CD27AE192043F72D00BABAEB /* Main.storyboard */,
@@ -118,6 +121,15 @@
 			children = (
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		CD27AE4020440EFE00BABAEB /* 侧双 */ = {
+			isa = PBXGroup;
+			children = (
+				CD27AE4120440F2B00BABAEB /* sjassaj.swift */,
+			);
+			name = "侧双";
+			path = "侧双/侧双";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD27AE4220440F2B00BABAEB /* sjassaj.swift in Sources */,
 				CD27AE162043F72D00BABAEB /* AppDelegate.swift in Sources */,
 				CD27AE3F20440E5400BABAEB /* aassasa.swift in Sources */,
 			);
