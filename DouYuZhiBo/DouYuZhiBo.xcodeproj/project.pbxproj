@@ -52,7 +52,7 @@
 		CD27AE142043F72D00BABAEB /* DouYuZhiBo */ = {
 			isa = PBXGroup;
 			children = (
-				CD27AE272044059300BABAEB /* Classes */,
+				CD27AE3720440CC000BABAEB /* Classes */,
 				CD27AE152043F72D00BABAEB /* AppDelegate.swift */,
 				CD27AE192043F72D00BABAEB /* Main.storyboard */,
 				CD27AE1C2043F72D00BABAEB /* Assets.xcassets */,
@@ -62,55 +62,55 @@
 			path = DouYuZhiBo;
 			sourceTree = "<group>";
 		};
-		CD27AE272044059300BABAEB /* Classes */ = {
+		CD27AE3720440CC000BABAEB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CD27AE2D2044059300BABAEB /* Main */,
-				CD27AE282044059300BABAEB /* Home */,
-				CD27AE2C2044059300BABAEB /* Live */,
-				CD27AE2A2044059300BABAEB /* Follow */,
-				CD27AE2B2044059300BABAEB /* Profile */,
-				CD27AE292044059300BABAEB /* Tools */,
+				CD27AE3820440CC000BABAEB /* Home */,
+				CD27AE3920440CC000BABAEB /* Tools */,
+				CD27AE3A20440CC000BABAEB /* Follow */,
+				CD27AE3B20440CC000BABAEB /* Profile */,
+				CD27AE3C20440CC000BABAEB /* Live */,
+				CD27AE3D20440CC000BABAEB /* Main */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		CD27AE282044059300BABAEB /* Home */ = {
+		CD27AE3820440CC000BABAEB /* Home */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		CD27AE292044059300BABAEB /* Tools */ = {
+		CD27AE3920440CC000BABAEB /* Tools */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Tools;
 			sourceTree = "<group>";
 		};
-		CD27AE2A2044059300BABAEB /* Follow */ = {
+		CD27AE3A20440CC000BABAEB /* Follow */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Follow;
 			sourceTree = "<group>";
 		};
-		CD27AE2B2044059300BABAEB /* Profile */ = {
+		CD27AE3B20440CC000BABAEB /* Profile */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		CD27AE2C2044059300BABAEB /* Live */ = {
+		CD27AE3C20440CC000BABAEB /* Live */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Live;
 			sourceTree = "<group>";
 		};
-		CD27AE2D2044059300BABAEB /* Main */ = {
+		CD27AE3D20440CC000BABAEB /* Main */ = {
 			isa = PBXGroup;
 			children = (
 			);
