@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CD27AE162043F72D00BABAEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD27AE152043F72D00BABAEB /* AppDelegate.swift */; };
-		CD27AE182043F72D00BABAEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD27AE172043F72D00BABAEB /* ViewController.swift */; };
 		CD27AE1B2043F72D00BABAEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD27AE192043F72D00BABAEB /* Main.storyboard */; };
 		CD27AE1D2043F72D00BABAEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD27AE1C2043F72D00BABAEB /* Assets.xcassets */; };
 		CD27AE202043F72D00BABAEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD27AE1E2043F72D00BABAEB /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		CD27AE122043F72D00BABAEB /* DouYuZhiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuZhiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD27AE152043F72D00BABAEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD27AE172043F72D00BABAEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD27AE1A2043F72D00BABAEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD27AE1C2043F72D00BABAEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD27AE1F2043F72D00BABAEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +52,69 @@
 		CD27AE142043F72D00BABAEB /* DouYuZhiBo */ = {
 			isa = PBXGroup;
 			children = (
+				CD27AE272044059300BABAEB /* Classes */,
 				CD27AE152043F72D00BABAEB /* AppDelegate.swift */,
-				CD27AE172043F72D00BABAEB /* ViewController.swift */,
 				CD27AE192043F72D00BABAEB /* Main.storyboard */,
 				CD27AE1C2043F72D00BABAEB /* Assets.xcassets */,
 				CD27AE1E2043F72D00BABAEB /* LaunchScreen.storyboard */,
 				CD27AE212043F72D00BABAEB /* Info.plist */,
 			);
 			path = DouYuZhiBo;
+			sourceTree = "<group>";
+		};
+		CD27AE272044059300BABAEB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CD27AE2D2044059300BABAEB /* Main */,
+				CD27AE282044059300BABAEB /* Home */,
+				CD27AE2C2044059300BABAEB /* Live */,
+				CD27AE2A2044059300BABAEB /* Follow */,
+				CD27AE2B2044059300BABAEB /* Profile */,
+				CD27AE292044059300BABAEB /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CD27AE282044059300BABAEB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CD27AE292044059300BABAEB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		CD27AE2A2044059300BABAEB /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		CD27AE2B2044059300BABAEB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CD27AE2C2044059300BABAEB /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		CD27AE2D2044059300BABAEB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +189,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD27AE182043F72D00BABAEB /* ViewController.swift in Sources */,
 				CD27AE162043F72D00BABAEB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
